@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".capture.ScreenShotActivity">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:gravity="center"
+        android:text="Detect Screenshot DEMO \n use following command to capture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHighlight="@color/purple_200"
+        android:textIsSelectable="true"
+        android:clickable="true"
+        android:longClickable="true" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="adb root &amp;&amp; adb shell sendevent /dev/input/event0 1 116 1 &amp;&amp; adb shell sendevent /dev/input/event0 0 0 0 &amp;&amp; adb shell sendevent /dev/input/event12 1 114 1 &amp;&amp; adb shell sendevent /dev/input/event12 0 0 0 &amp;&amp; sleep 3 &amp;&amp; adb shell sendevent /dev/input/event0 1 116 0 &amp;&amp; adb shell sendevent /dev/input/event0 0 0 0 &amp;&amp; adb shell sendevent /dev/input/event12 1 114 0 &amp;&amp; adb shell sendevent /dev/input/event12 0 0 0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview1"
+        android:textColorHighlight="@color/purple_200"
+        android:paddingHorizontal="10dp"
+        android:textIsSelectable="true"
+        android:clickable="true"
+        android:longClickable="true" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
