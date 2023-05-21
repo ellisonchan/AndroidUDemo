@@ -2,19 +2,23 @@ g# Demo for Android 14
 
 ## :camera_flash: [1. Capture Callback](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/capture/)
 
-<img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5b1f91ec43244c392f0518ed99635c1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" alt="img" style="zoom: 25%;" />
+
+
+<div align=center><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5b1f91ec43244c392f0518ed99635c1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" width="40%"></div>
 
 ## :memo: [2. TextView Highlights & LineHeight](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/textView/)
 
 ### 2.1 hightlights
 
-<img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d1dfcd45a4ff4f90ab1d453e854fd51d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" alt="img" style="zoom:67%;" />
+<div align=center><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d1dfcd45a4ff4f90ab1d453e854fd51d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" width="50%"></div>
 
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5a7f4dc64f324c34bfb702197225c1e2~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" alt="img" style="zoom:67%;" />
+<div align=center><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5a7f4dc64f324c34bfb702197225c1e2~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" width="50%"></div>
+
 
 ### 2.2 searchResultHightlight
 
-![](https://pic1.imgdb.cn/item/64685dbbe03e90d874a1b88f.gif)
+<div align=center><img src="https://pic1.imgdb.cn/item/64685dbbe03e90d874a1b88f.gif" width="50%"></div>
+
 
 ## :copyright: License                                                                                                                                                                                                                    
 
