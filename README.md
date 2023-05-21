@@ -1,4 +1,4 @@
-# Demo for Android 14
+g# Demo for Android 14
 
 ## :camera_flash: [1. Capture Callback](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/capture/)
 
@@ -15,10 +15,6 @@
 ### 2.2 searchResultHightlight
 
 ![](https://pic1.imgdb.cn/item/64685dbbe03e90d874a1b88f.gif)
-
-### 2.3 lineHeight
-
-![](https://pic1.imgdb.cn/item/64685dbbe03e90d874a1b86b.gif)
 
 ## :copyright: License                                                                                                                                                                                                                    
 

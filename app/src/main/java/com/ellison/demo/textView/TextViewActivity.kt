@@ -121,11 +121,11 @@ class TextViewActivity : AppCompatActivity() {
         binding.startSearch.setOnClickListener {
             binding.textview2.run {
                 Log.d("HighLights", "startSearch tapped" +
-                        " and current Focused Color:${focusedSearchResultHighlightColor.toColorString()}" +
-                        " and currentFocusedResultIndex:${focusedSearchResultIndex}")
+                        " and current search Color:${searchResultHighlightColor.toColorString()}"
+                )
 
                 // set searching ranges
-                setSearchResultHighlights(4, 10, 25, 32)
+                setSearchResultHighlights(4, 11, 25, 32)
             }
         }
 
@@ -133,7 +133,8 @@ class TextViewActivity : AppCompatActivity() {
             binding.textview2.run {
                 Log.d("HighLights", "changeSearchIndex tapped" +
                         " and current Focused Color:${focusedSearchResultHighlightColor.toColorString()}" +
-                        " and currentFocusedResultIndex:${focusedSearchResultIndex}")
+                        " and currentFocusedResultIndex:${focusedSearchResultIndex}"
+                )
 
                 // Set index to first or second
                 val newSearchIndex = when (focusedSearchResultIndex) {
@@ -147,21 +148,21 @@ class TextViewActivity : AppCompatActivity() {
             }
         }
 
-        binding.changeLineHeight.setOnClickListener {
-            binding.textview2.run {
-                Log.d(
-                    "HighLights", "changeLineHeight tapped" +
-                            " current line Height:$lineHeight"
-                )
-
-                // setLineHeight(TypedValue.COMPLEX_UNIT_DIP, 20)
-                lineHeight = 80
-
-                Log.d(
-                    "HighLights", "new line Height:$lineHeight"
-                )
-            }
-        }
+//        binding.changeLineHeight.setOnClickListener {
+//            binding.textview2.run {
+//                Log.d(
+//                    "HighLights", "changeLineHeight tapped" +
+//                            " current line Height:$lineHeight"
+//                )
+//
+//                // setLineHeight(TypedValue.COMPLEX_UNIT_DIP, 20)
+//                lineHeight = 80
+//
+//                Log.d(
+//                    "HighLights", "new line Height:$lineHeight"
+//                )
+//            }
+//        }
     }
 
     // private fun Long.rgbaToArgb() = (this shr 32 xor 0xffffffffL).toInt()
@@ -169,7 +170,7 @@ class TextViewActivity : AppCompatActivity() {
 
 fun Int.toColorString() =
     when (this) {
-        -27086    -> "CYAN"
+        -16711681    -> "CYAN"
         -16711936 -> "GREEN"
         -256      -> "YELLOW"
         -7829368  -> "GREY"
