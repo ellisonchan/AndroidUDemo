@@ -14,24 +14,33 @@
         android:enableOnBackInvokedCallback="true"
         android:theme="@style/Theme.TextViewHighlightsDemo"
         tools:targetApi="31">
-<!--        <activity-->
-<!--            android:name=".capture.ScreenShotActivity"-->
-<!--            android:label="TestCapture"-->
-<!--            android:exported="true">-->
+        <activity
+            android:name=".capture.ScreenShotActivity"
+            android:label="TestCapture"
+            android:exported="true">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
-
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
-<!--        </activity>-->
+        </activity>
 
         <activity
             android:name=".textView.TextViewActivity"
             android:label="TestTextView"
             android:exported="true">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name=".personalization.GenderActivity"
+            android:label="TestGrammaticalGender"
+            android:configChanges="grammaticalGender"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

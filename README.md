@@ -1,10 +1,10 @@
-Demo for Android 14
+# Demo for Android 14
 
 ## :camera_flash: [1. Capture Callback](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/capture/)
 
 
 
-<div align=center><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5b1f91ec43244c392f0518ed99635c1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" width="40%"></div>
+<div align=center><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5b1f91ec43244c392f0518ed99635c1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" width="30%"></div>
 
 ## :memo: [2. TextView Highlights & LineHeight](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/textView/)
 
@@ -19,6 +19,15 @@ Demo for Android 14
 
 <div align=center><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a60cdb92188946dfaf3195bf24bf6d2e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" width="50%"></div>
 
+## 👩 3. Grammatical Gender API
+
+### 3.1 Update Grammatical Gender preference by API
+
+<div align=center><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/de97dd87092840ab87e9d0be4b77e0be~tplv-k3u1fbpfcp-watermark.image?" width="50%"></div>
+
+### 3.2 Config changes and update gender's text manually
+
+<div align=center><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/627505a121b34e829b86fa0a30392496~tplv-k3u1fbpfcp-watermark.image?" width="50%"></div>
 
 ## :copyright: License                                                                                                                                                                                                                    
 
