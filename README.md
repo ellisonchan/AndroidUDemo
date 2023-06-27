@@ -1,12 +1,18 @@
 # Demo for Android 14
 
+> **Warning**
+>
+> Due to grammatical gender feature, need ***Android Studio Giraffe Canary 7*** or higher.
+>
+> You could download that [here](https://androidstudio.googleblog.com/2023/02/android-studio-giraffe-canary-7-now.html).
+
 ## :camera_flash: [1. Capture Callback](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/capture/)
 
 
 
 <div align=center><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b5b1f91ec43244c392f0518ed99635c1~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" width="30%"></div>
 
-## :memo: [2. TextView Highlights & LineHeight](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/textView/)
+## :memo: [2. TextView Highlights & Search Highlight](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/textView/)
 
 ### 2.1 hightlights
 
@@ -15,19 +21,24 @@
 <div align=center><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5a7f4dc64f324c34bfb702197225c1e2~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" width="50%"></div>
 
 
-### 2.2 searchResultHightlight
+### 2.2 Search Hightlight
 
 <div align=center><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a60cdb92188946dfaf3195bf24bf6d2e~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" width="50%"></div>
 
-## 👩 3. Grammatical Gender API
+## 👩 3. [Grammatical Gender API](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/personalization/)
 
 ### 3.1 Update Grammatical Gender preference by API
 
-<div align=center><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/de97dd87092840ab87e9d0be4b77e0be~tplv-k3u1fbpfcp-watermark.image?" width="50%"></div>
+<div align=center><img src="/screenshot/update-gender-recreate.gif" width="50%"></div>
 
 ### 3.2 Config changes and update gender's text manually
 
 <div align=center><img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/627505a121b34e829b86fa0a30392496~tplv-k3u1fbpfcp-watermark.image?" width="50%"></div>
+
+## 📤 4. [Custom Action on ShareSheet](https://github.com/ellisonchan/AndroidUDemo/blob/main/app/src/main/java/com/ellison/demo/share/)
+
+<div align=center><img src="/screenshot/share_custom.png" width="50%"></div>
+
 
 ## :copyright: License                                                                                                                                                                                                                    
 
