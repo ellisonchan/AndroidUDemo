@@ -11,6 +11,8 @@ android {
         applicationId "com.ellison.demo"
         minSdkPreview "UpsideDownCake"
         targetSdkPreview "UpsideDownCake"
+//        minSdk 31
+//        targetSdk 31
         versionCode 1
         versionName "1.0"
 
